@@ -1,0 +1,15 @@
+{
+  "name": "kill-svchost",
+  "version": "1.0.0",
+  "description": "kill svchost continuously",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis Viscogliosi",
+  "license": "ISC",
+  "dependencies": {
+    "node-process-windows": "0.0.2",
+    "tasklist": "^3.1.0"
+  }
+}
