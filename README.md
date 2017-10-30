@@ -16,7 +16,7 @@ REMOVE THIS SHIT OF SVCHOST AND TAKE CONTROL OF YOUR COMPUTER !! :@
 echo OFF
 NET SESSION >nul 2>&1
 IF %ERRORLEVEL% EQU 0 (
-    cd "c:\Workspace\dev\nodejs\kill-svchost\"
+    cd "HOME_OF_THE_REPO" :: Change it with the path of the repository cloned, as absolute.
     node .
 ) ELSE (
    echo ######## ########  ########   #######  ########  
@@ -38,7 +38,7 @@ IF %ERRORLEVEL% EQU 0 (
 )
 cmd /k
 ```
-- replace `c:\Workspace\dev\nodejs\kill-svchost\` with the location of the cloned repository
+- replace `HOME_OF_THE_REPO` with the location of the cloned repository
 - launch the bat file as administrator !
 
 **Now svchost is not a problem.**
