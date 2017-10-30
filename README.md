@@ -42,3 +42,7 @@ cmd /k
 - launch the bat file as administrator !
 
 **Now svchost is not a problem.**
+
+## what's the script doing
+
+The script, every 8 seconds iterate through the output of the command : `netstat -b -o -n`. If a line contain `svchost.exe` the script get the PID of the processus and kill it by doing this `taskkill /F /PID $PID_OF_PROCESS`.
