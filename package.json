@@ -8,8 +8,4 @@
   },
   "author": "Alexis Viscogliosi",
   "license": "ISC",
-  "dependencies": {
-    "node-process-windows": "0.0.2",
-    "tasklist": "^3.1.0"
-  }
 }
