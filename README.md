@@ -9,7 +9,7 @@ REMOVE THIS SHIT OF SVCHOST AND TAKE CONTROL OF YOUR COMPUTER !! :@
 
 ## Install this script
 
-- execute in cmd : `git clone https://github.com/AlexisVisco/No-Svchost/`
+- execute in cmd : `git clone https://github.com/AlexisVisco/No-BackgroundUpdate/`
 - create this bat file on your desktop :
 ```bat
 @rem
